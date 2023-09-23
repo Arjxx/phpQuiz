@@ -1,0 +1,27 @@
+#quiz-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#navigation-bar {
+    margin-top: 20px;
+}
+
+.nav-item {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.nav-item.attended {
+    background-color: #eee;
+}
